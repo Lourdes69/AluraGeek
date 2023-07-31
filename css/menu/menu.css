@@ -1,0 +1,62 @@
+
+
+
+.menu{
+    margin-top: 1rem;
+    display: flex;
+    height: 352px; 
+    background-image: url("/img/banner.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+.menu__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 32px;
+    margin-left: 1.3rem;
+    
+
+    
+   
+}
+.menu__container h1{
+color:#FFF;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+}
+.menu__container h2{
+    color:  #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.menu__btn{
+border: none;
+background: #2A7AE4;
+display: flex;
+font-size: 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #fff;
+padding: 16px;
+cursor: pointer;
+}
+.menu__btn:hover{
+    transition-duration: 1.2s;
+    background: rgb(124, 124, 226);
+    color: #FFF;
+}

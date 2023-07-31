@@ -1,0 +1,159 @@
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    margin-top: 3rem;
+    background:#EAF2FD;
+    gap: 115px;
+    width: 1132px;
+    
+}
+#pie-pagina{
+    margin: 0;
+    
+}
+
+ .footer__container{
+    display: flex;
+    gap: 112px;
+     
+}
+
+.footer__titulo{
+    display: flex;
+    flex-direction: row;
+    gap: 112px;
+}
+
+
+.footer__icon{
+    flex-shrink: 0;
+}
+.ul{
+   width: 176px;
+    display: flex;
+}
+.footer__lista{
+display: flex;
+flex-direction: column;
+gap: 24px;
+flex-shrink: 0;
+
+}
+  a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__item{
+display: flex;
+color: #464646;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.footer__form{
+width: 560px;
+display: flex;
+flex-shrink: 0;
+justify-content: space-around;
+}
+
+.footer__form__container{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+flex-shrink: 0;
+}
+.formulario__form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+.form__titulo{
+    color:  #464646;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.input-container{
+    position: relative;
+    width: 100%;
+    outline: transparent;
+    border: none;
+    display: flex;
+    padding-top: 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+  
+
+}
+.input__texto{
+    outline: transparent;
+    border: none;
+    resize: none;  
+    width: 360px;
+    height: 56px;
+    border-radius: 4px;
+    border-bottom: 1px solid #C8C8C8 ;
+    
+}
+::placeholder{
+color:  #A2A2A2;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+padding: 1rem;
+}
+.form__btn{
+    width: min-content;
+    white-space: nowrap;
+}
+.button {
+    gap: 10px;
+    position: relative;
+    display: inline-block;
+    border: 0;
+    padding: 12px 16px;
+    color: #FFF;
+    font-weight: bold;
+    background-color:#2A7AE4;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all .2s ease;
+    z-index: 0;
+    cursor: pointer;
+}
+.button:hover{
+    background: #403aeb;
+    transition: all .2s ease;
+}
+
+.copy{
+display: flex;
+padding: 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background:  #FFF;
+}
+.copy__texto{
+ color:  #464646;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

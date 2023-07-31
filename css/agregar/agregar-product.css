@@ -1,0 +1,78 @@
+
+
+.section{
+margin-top: 32px;
+background: #F5F5F5;
+}
+
+.section__container{
+padding: 5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.form__agregar{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    gap: 16px
+}
+.agregar__titulo{
+color:  #464646;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.input-container{
+    position: relative;
+    width: 100%;
+
+}
+
+
+.input-container__input {
+    outline: transparent;
+    border: none;
+    resize: none;
+    border-radius: 4px;
+    background-color: white;
+    padding: 30px 12px 8px;
+    border-bottom: 1px solid #C8C8C8;
+    color: #464646;
+}
+   
+.input-container__label{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    inset: 0;
+    padding: 16px 0 0 12px;
+    color: #A2A2A2; ;
+    height: min-content;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.form__button{
+    font-weight: 500;
+    width: 100%;
+    margin-top: 16px;
+    color:#FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    padding: 16px;
+    background: #2A7AE4;
+    border: none;
+    cursor: pointer;
+}
+.form__button:hover{
+    background-color: #69a3ef;
+    transition: all .3s ease;
+    color: rgb(14, 12, 12);
+ 
+}

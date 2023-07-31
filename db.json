@@ -1,0 +1,126 @@
+{
+    "productos": [
+      {
+        "nombre": "Producto XYZ",
+        "precio": "6000",
+        "imagen": "img/sw1.webp",
+        "id": "1"
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "6000",
+        "imagen": "img/sw2.webp",
+         "id":"2"
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "6000",
+        "imagen": "img/sw3.webp",
+        "id": "3"
+
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "6000",
+        "imagen": "img/sw4.webp",
+        "id": "4"
+
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "6000",
+        "imagen": "img/sw5.webp",
+        "id": "5"
+        
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "6000",
+        "imagen": "img/sw6.webp",
+        "id": "6"
+        
+      },
+      {
+        "nombre": "Control XYZ",
+        "precio": "6000",
+        "imagen": "img/c1.webp",
+        "id": "7"
+        
+      },
+      {
+        "nombre": "Control y consola XYZ",
+        "precio": "6000",
+        "imagen": "img/c2.webp",
+        "id": "8"
+      },
+      {
+        "nombre": "Consola XYZ",
+        "precio": "6000",
+        "imagen": "img/c3.webp",
+        "id": "9"
+
+      },
+      {
+        "nombre": "Consola XYZ",
+        "precio": "6000",
+        "imagen": "img/c4.webp",
+        "id": "10"
+
+      },
+      {
+        "nombre": "Consola XYZ",
+        "precio": "6000",
+        "imagen": "img/c5.webp",
+        "id": "11"
+
+      },
+      {
+        "nombre": "Game Boy Color",
+        "precio": "6000",
+        "imagen": "img/c6.webp",
+        "id": "12"
+
+      },
+      {
+        "nombre": "Camisa Atari",
+        "precio": "6000",
+        "imagen": "img/d1.webp",
+        "id": "13"
+
+      },
+      {
+        "nombre": "Camisa SNES",
+        "precio": "6000",
+        "imagen": "img/d2.webp",
+        "id": "14"
+      },
+      {
+        "nombre": "Control y consola XYZ",
+        "precio": "6000",
+        "imagen": "img/d3.webp",
+        "id": "15"
+
+      },
+      {
+        "nombre": "Control y consola XYZ",
+        "precio": "6000",
+        "imagen": "img/d4.webp",
+        "id": "16"
+
+      },
+      {
+        "nombre": "Control y consola XYZ",
+        "precio": "6000",
+        "imagen": "img/d5.webp",
+        "id": "17"
+
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "6000",
+        "imagen": "img/d6.webp",
+        "id": "18"
+
+      }
+    ]
+}

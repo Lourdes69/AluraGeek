@@ -1,0 +1,145 @@
+
+.productos{
+    margin-top: 3rem;
+    
+ 
+}
+#container{
+    background-color: #F5F5F5;
+
+}
+
+.productos__titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3.5rem;
+    margin-right: 3.4rem;
+    margin-top: 3rem;
+}
+#titulo{
+    margin-left: 7.5rem;
+}
+.producto__star{
+color: black;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+}
+.producto__link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    gap: 7px;
+    white-space: nowrap;
+}
+.producto__card__precio{
+    color:#1c1b1b;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.producto__ver{
+color: #2A7AE4;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+transition: all 2s;
+
+}
+.producto__ver:hover{
+    text-shadow: 2px 2px 5px rgb(61, 73, 235);
+}
+.ver{
+padding: 16px;
+color:#FFF;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background:#2A7AE4; 
+margin-right: 3rem;
+}
+.ver:hover{
+    background: blueviolet;
+    transition: all .3s ease;
+}
+
+.producto__xyz{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    overflow: hidden;
+}
+.producto__img{
+    width: 176px;
+    height: 174px;
+    object-fit: cover;
+    
+}
+
+.producto__icon{
+width: 22px;
+height: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.producto__xyz__titulo{
+color: #464646;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.producto__precio{
+color: #464646;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.producto__card__link{
+    color: #2A7AE4;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+.producto__card__link:hover{
+    text-shadow: 2px 2px 5px rgb(91, 66, 253);
+}
+.product-icon{
+   padding: 7px;
+   transition: transform .3s ease; 
+}
+.product__icons-container{
+    position: absolute;
+    display: flex;
+    width: 22%;
+    justify-content: center;
+
+}
+#product{
+    margin-top: 3rem;
+}
